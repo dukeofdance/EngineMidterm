@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Runtime.InteropServices;
 using UnityEngine.SceneManagement;
 
 
@@ -11,11 +13,18 @@ public class Move : MonoBehaviour
 
     Rigidbody rb;
 
+    public Transform player;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        player.position = new Vector3(randomPosition(-1, 45), (randomPosition(-1,3)), -5);
     }
+
+
+    [DllImport("MidtermPlugin")]
+    private static extern int randomPosition(float i1, float i2);
 
     private void FixedUpdate()
     {

@@ -702,7 +702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44.1083, y: 0.8089}
+  m_AnchoredPosition: {x: 45, y: 0.8089}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &334851049
@@ -1151,7 +1151,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 81337925497dad24582c31782d980f17, type: 2}
+  - {fileID: 2100000, guid: a109810a0279b464db5fa942550ff1b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1488,7 +1488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7697277277628208010, guid: 0ef5a56fd3c50e045991c0d8f8d5f055, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25600004
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7697277277628208010, guid: 0ef5a56fd3c50e045991c0d8f8d5f055, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1496,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7697277277628208010, guid: 0ef5a56fd3c50e045991c0d8f8d5f055, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.78
+      value: -1.37
       objectReference: {fileID: 0}
     - target: {fileID: 7697277277628208010, guid: 0ef5a56fd3c50e045991c0d8f8d5f055, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6545,6 +6545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveForce: 3
   jumpForce: 0.5
+  player: {fileID: 0}
 --- !u!136 &1000628378
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6852,7 +6853,7 @@ PrefabInstance:
     - target: {fileID: 561880598709816740, guid: 0ef5a56fd3c50e045991c0d8f8d5f055, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a109810a0279b464db5fa942550ff1b0, type: 2}
+      objectReference: {fileID: -63299402771509059, guid: 96a6afc8f6daac94b96c6dc9e18ebc13, type: 3}
     - target: {fileID: 561880598709816741, guid: 0ef5a56fd3c50e045991c0d8f8d5f055, type: 3}
       propertyPath: m_Center.y
       value: 7.67
