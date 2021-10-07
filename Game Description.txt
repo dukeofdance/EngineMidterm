@@ -1,0 +1,2 @@
+In this sidescroller the player will utilize a jetpack to dodge and weave between obstacles and reach the goal.
+I plan to keep the scope simple and implement the basic game states and necessary game logic including a start screen, game over, level end and a basic level. 

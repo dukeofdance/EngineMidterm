@@ -1,0 +1,12 @@
+Relavant components:
+Player
+obsticles
+Ground
+Ceiling
+Goal
+Camera
+PlayerMovement script
+Game over screen
+Start Screen
+Level Clear screen
+SceneManager script
